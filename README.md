@@ -4,12 +4,12 @@
 
 ## Exam Topics
 
- **[SDLC Automation](./SDLC%20Automation.md)**
- **[Configuration Management and IaC](./Configuration%20Management%20and%20IaC.md)** 
- **[Resilient Cloud Solutions](./Resilient%20Cloud%20Solutions.md)** 
- **[Monitoring and Logging](./Monitoring%20and%20Logging.md)** 
- **[Incident and Event Response](./Incident%20and%20Event%20Response.md)**  
- **[Security and Compliance](./Security%20and%20Compliance.md)**
+**[SDLC Automation](./SDLC%20Automation.md)**
+**[Configuration Management and IaC](./Configuration%20Management%20and%20IaC.md)** 
+**[Resilient Cloud Solutions](./Resilient%20Cloud%20Solutions.md)** 
+**[Monitoring and Logging](./Monitoring%20and%20Logging.md)** 
+**[Incident and Event Response](./Incident%20and%20Event%20Response.md)**  
+**[Security and Compliance](./Security%20and%20Compliance.md)**
 
 ## Tips:
 
