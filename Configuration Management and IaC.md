@@ -10,4 +10,13 @@
 
 5. cfn-hup is a daemon that can run in an EC2 instance that polls the Cloudformation API to detect changes in the instance metadata and can apply configurations as directed.  
 
-6.
+6. Most Important Cloudformation attributes , CreationPolicy, UpdatePolicy, ReplacePolicy.  
+
+7. If the Cloudformation service isn't assigned permissions using the service role then it uses the permissions of the IAM user triggering it, provided the user has `iam:PassRole` Permission.   
+
+8. Custom resources in CFT are not supported for drift detection.  
+
+9. When using CFT for creating/updating IAM resources, `capability_Named_IAM` and `capability_IAM` are needed.  
+
+10. 
+
