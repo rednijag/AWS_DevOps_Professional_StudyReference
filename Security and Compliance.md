@@ -14,4 +14,6 @@
 
 7. AWS IAM Identity Center provides SSO for all your AWS Organization accounts (Supports Microsoft AD, Onelogin etc) and to your 3rd party Apps. Users and groups in the External Idp should be same in AWS IAM Identity Center.  
  
-8.  
+8.  ABAC: Attribute based Access control, use Resource tags on both user/groups and resource policies to allow/deny access.  
+
+9. AWS Firewall Manager can track and manage all ALBs with/without Firewall and auto-remediate based on the applied policies. 
