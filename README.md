@@ -1,4 +1,4 @@
-# AWS DevOps Professional Exam Study Guide + Tips
+# AWS DevOps Professional Last Minute Review/Highlight Guide + Tips
 
 **Please Note: This is not a full fledged Exam guide covering every single topic in its absolute length and breadth, It highlights and details the topics I found to be the most tricky and lowkey ominpresent in the exam.
 

@@ -16,4 +16,8 @@
  
 8.  ABAC: Attribute based Access control, use Resource tags on both user/groups and resource policies to allow/deny access.  
 
-9. AWS Firewall Manager can track and manage all ALBs with/without Firewall and auto-remediate based on the applied policies. 
+9. AWS Firewall Manager can track and manage all ALBs with/without Firewall and auto-remediate based on the applied policies.  
+
+10. AWS Inspector needs running EC2 Instance to check and detect OS level vulnerabilities etc. , So it works in conjunction with Lambda function to create a Patched Golden AMI.  
+
+11. 
