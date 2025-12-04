@@ -12,4 +12,9 @@
 
 6. Codebuild has jenkins, cloudbees and teamcity plugin features to act as their worker agent.  
 
+7. Codedeploy integration rollback can be triggered based on a Cloudwatch alarm.  
+
+8. During an ECS deployment using CodePipeline Validation tests are to be run on the `AfterAllowTestTraffic` lifecycle hook.  
+
+
 

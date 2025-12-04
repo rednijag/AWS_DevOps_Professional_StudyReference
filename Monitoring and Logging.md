@@ -20,5 +20,5 @@
 
 10. Amazon Athena is used for cheaper analysis of Cloudwatch Logs on S3, To Improve performance of Amazon Athena queries use larger file sizes, columnar data and compress data.  
 
-11. 
+
  

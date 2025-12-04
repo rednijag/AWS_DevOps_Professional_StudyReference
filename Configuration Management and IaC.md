@@ -18,5 +18,5 @@
 
 9. When using CFT for creating/updating IAM resources, `capability_Named_IAM` and `capability_IAM` are needed.  
 
-10. 
+
 

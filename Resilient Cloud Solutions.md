@@ -22,5 +22,4 @@
 
 11. ECS logging using awslogs driver (in task definition), EC2 based ecs needs ecs cloudwatch agent or a sidecar container can be used just to capture and push logs to CW.  
 
-12. 
 

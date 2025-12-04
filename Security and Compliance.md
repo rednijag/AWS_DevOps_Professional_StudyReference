@@ -14,10 +14,10 @@
 
 7. AWS IAM Identity Center provides SSO for all your AWS Organization accounts (Supports Microsoft AD, Onelogin etc) and to your 3rd party Apps. Users and groups in the External Idp should be same in AWS IAM Identity Center.  
  
-8.  ABAC: Attribute based Access control, use Resource tags on both user/groups and resource policies to allow/deny access.  
+8. ABAC: Attribute based Access control, use Resource tags on both user/groups and resource policies to allow/deny access.  
 
 9. AWS Firewall Manager can track and manage all ALBs with/without Firewall and auto-remediate based on the applied policies.  
 
 10. AWS Inspector needs running EC2 Instance to check and detect OS level vulnerabilities etc. , So it works in conjunction with Lambda function to create a Patched Golden AMI.  
 
-11. 
+11. Service Control Policies work only with AWS Organization with full features mode enabled, without an explicit `Allow` for a particular service for a particular account or OU, it denies the service availability, and any `Deny` from the Root level OU to the Account is taken as a `Deny` for that particular service to the particular Account/OU.  
