@@ -18,5 +18,15 @@
 
 9. When using CFT for creating/updating IAM resources, `capability_Named_IAM` and `capability_IAM` are needed.  
 
+10. Cloudformation Hooks provide a way to proactively check and validate any CFT before it creates or updates any resources. For example a Lambda based hook can check whether the CFT is creating only encrypted EBS or not.  
+
+11. The `aws-controltower-AllConfigNotifications` SNS topic receives all events published by AWS Config. For example, this topic informs you if a control violation has occurred. It also gives information about other types of events.  
+
+12. AWS WAF supports Country,IP based blocking and Captchas as well, So AWS WAF can also be used for Geo-restriction.  
+
+13. AWS WCU are the WAF Capacity Units which are consumed based on the resources each rule consumes, a rule group cant have more than 5000 WCUs. Also the maximum number of headers that can be sent to WAF is 200.  
+ 
+14. 
+
 
 

@@ -20,5 +20,9 @@
 
 10. Amazon Athena is used for cheaper analysis of Cloudwatch Logs on S3, To Improve performance of Amazon Athena queries use larger file sizes, columnar data and compress data.  
 
+11. CloudTrail logs can be sent to a Cloudwatch log group from there a metric filter can be developed for a particular Cloudtrail logged api call. For example: number of api calls to secrets manager for a particular secret.  
+
+12. 
+
 
  

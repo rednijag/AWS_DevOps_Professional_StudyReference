@@ -21,3 +21,19 @@
 10. AWS Inspector needs running EC2 Instance to check and detect OS level vulnerabilities etc. , So it works in conjunction with Lambda function to create a Patched Golden AMI.  
 
 11. Service Control Policies work only with AWS Organization with full features mode enabled, without an explicit `Allow` for a particular service for a particular account or OU, it denies the service availability, and any `Deny` from the Root level OU to the Account is taken as a `Deny` for that particular service to the particular Account/OU.  
+
+12. AWS Control Tower provides Control feature which is plain language rule that describes the type of policies which will be enforced in your AWS Control Tower managed Organization, these control rules can be of Preventive (SCP and RCP based) , Detective (AWS Config based) or Proactive (Cloudformation Hooks based).  
+
+13. Amazon Inspector can have agentless inspection using `EBS direct API` on snapshots of all EBS volumes attached to EC2 instances, this is a great solution for highly restrictive environments where an agent(SSM Agent used) is not allowed.  
+
+14. To exclude instances from Inspector scan use `InspectorEc2Exclusion` tag key.  
+
+15. Use `BlockPublicPolicy: true` in the Identity policies that allow `PutResourcePolicy` for AWS Secrets manager, this is an automated way to disallow use of broad access to secrets in secrets manager.  
+
+16. Secrets manager keeps track of 3 versions of a secret by default (using labels) , you can add labels to other versions to keep them available in case of emergency.  
+
+
+
+
+
+
